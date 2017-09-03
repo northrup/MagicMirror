@@ -5,7 +5,7 @@ ENV MM_PORT 8080
 
 WORKDIR /opt/magic_mirror
 
-RUN git clone --depth 1 -b master https://github.com/MichMich/MagicMirror.git .
+RUN git clone --depth 1 -b master https://github.com/northrup/MagicMirrorSrc.git .
 
 RUN cp -R modules /opt/magic_mirror/unmount_modules
 RUN cp -R config /opt/magic_mirror/unmount_config
